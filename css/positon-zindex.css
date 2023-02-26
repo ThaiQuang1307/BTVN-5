@@ -1,0 +1,146 @@
+
+/* menu  */
+nav {
+    background-color: #FF5300;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 20px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+/* end menu  */
+
+/* main  */
+main {
+    background-color: #ccc;
+    margin-top: 50px;
+    border-radius: 8px;
+    height: 1000px;
+
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 60px;
+    color: #fff;
+
+    border-radius: 8px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+
+    position: absolute;
+}
+
+.div-1 {
+    background-color: #d44e00;
+    top: 0;
+    left: 0;
+}
+
+.div-2 {
+    background-color: #d40000;
+    top: 20px;
+    right: 20px;
+}
+
+.div-3 {
+    background-color: #369400;
+    bottom: 40px;
+    right: 40px;
+}
+
+.div-4 {
+    background-color: #2a00d4;
+    bottom: 60px;
+    left: 60px;
+}
+/* end main  */
+
+/* footer  */
+footer {
+    background-color: #0065bc;
+    border-radius: 8px;
+    padding: 80px 50px;
+    margin-top: 30px;
+
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+footer div::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    background-color: #0000002d;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+footer div::after {
+    content: "";
+    width: 240px;
+    height: 240px;
+    background-color: #0000002d;
+
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    border-radius: 50%;
+}
+
+footer div {
+    z-index: 10;
+}
+
+footer div::first-letter {
+    font-size: 50px;
+}
+
+footer div::first-line {
+    text-transform: uppercase;
+}
+/* end footer  */
+
+/* call  */
+.call a {
+    width: 60px;
+    height: 60px;
+    background-color: #147a00;
+    color: #fff;
+
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* end call  */
+
